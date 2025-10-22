@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint:html": "html-validate "**/*.html" || true"
+  },
+  "devDependencies": {
+    "html-validate": "^8.4.3"
+  }
+}
