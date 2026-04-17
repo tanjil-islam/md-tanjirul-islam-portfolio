@@ -35,10 +35,10 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 0.5 }}
-            className='space-y-4'
+            className='mx-auto w-full max-w-md space-y-4 lg:mx-0 lg:max-w-none'
           >
             <div className='overflow-hidden rounded-2xl border border-indigo-300/70 bg-gradient-to-br from-indigo-100 via-sky-100 to-indigo-100 p-1.5 shadow-[0_14px_36px_rgba(37,99,235,0.2)] dark:border-cyan-500/40 dark:from-slate-900 dark:via-slate-950 dark:to-indigo-950/70 dark:shadow-[0_16px_38px_rgba(8,145,178,0.18)]'>
-              <div className='overflow-hidden rounded-xl bg-slate-900/95'>
+              <div className='aspect-[4/5] overflow-hidden rounded-xl bg-slate-900/95 sm:aspect-auto'>
                 <img
                   src='/pic/about.jpg'
                   alt='Md Tanjirul Islam portrait'
@@ -61,11 +61,11 @@ export default function About() {
             transition={{ duration: 0.52, delay: 0.04 }}
             className='rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_14px_34px_rgba(15,23,42,0.12)] dark:border-slate-800 dark:bg-base-900 sm:p-7'
           >
-            <h3 className='text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-3xl'>
+            <h3 className='text-xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-3xl'>
               About {siteData.name}
             </h3>
 
-            <p className='mt-4 text-base leading-8 text-slate-600 dark:text-slate-300'>
+            <p className='mt-4 text-sm leading-7 text-slate-600 dark:text-slate-300 sm:text-base sm:leading-8'>
               {siteData.about}
             </p>
 

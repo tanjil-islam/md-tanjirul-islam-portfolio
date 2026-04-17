@@ -20,7 +20,7 @@ export const siteData = {
   heroChips: ["Fast Learner", "Problem Solver", "Open to Opportunities"],
   about:
     "I am a fresh graduate with a strong interest in software development. I enjoy building web applications with the MERN/LAMP stack, improving my skills through real projects, and writing clean, maintainable code.",
-  cvLink: "https://tanjirul-islam.netlify.app/assets/Md_Tanjirul_Islam.pdf",
+  cvLink: "/assets/Md_Tanjirul_Islam.pdf",
   contact: {
     email: "tanjil.islam040820@gmail.com",
     phone: "01612757513",

@@ -224,13 +224,11 @@ export default function Contact() {
               Email Me Directly
             </a>
             <a
-              href={siteData.socials.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:+8801612757513"
               className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-base-800"
             >
               <FiCalendar className="h-4 w-4" />
-              Schedule a Call
+              Call: {siteData.contact.phone}
             </a>
           </div>
         </motion.div>

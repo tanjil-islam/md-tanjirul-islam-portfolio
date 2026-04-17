@@ -9,8 +9,11 @@ export default function Navbar({ theme, onToggleTheme }) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/78 backdrop-blur-lg dark:border-slate-800 dark:bg-base-950/85">
-      <nav className="mx-auto flex w-full max-w-6xl items-center justify-between gap-6 px-5 py-4 sm:px-8">
-        <a href="#home" className="text-2xl font-bold tracking-tight text-indigo-500 dark:text-cyan-300">
+      <nav className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-4 sm:gap-6 sm:px-8">
+        <a
+          href="#home"
+          className="max-w-[70vw] truncate text-lg font-bold tracking-tight text-indigo-500 dark:text-cyan-300 sm:max-w-none sm:text-2xl"
+        >
           {siteData.name}
         </a>
 
